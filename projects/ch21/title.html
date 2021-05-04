@@ -7,7 +7,11 @@
 <body>
 
 	<script>
-		// Your code goes here!
+		var orginalTitle = document.title;
+		function showUnreadCount( unread) {
+			document.title = originalTitle + "(" + unread + "new messages!)";
+		}
+		showUnreadCount(3);
 	</script>
 </body>
 </html>
