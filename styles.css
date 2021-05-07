@@ -5,4 +5,13 @@
 .container img {
     width: 25%;
     height: auto;
+   display: flex;
+   flex-wrap: wrap ;
 }
+
+.container img {
+    width: 72%;
+    height: auto; 
+    display: flex;
+}
+
